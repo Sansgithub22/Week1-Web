@@ -137,12 +137,7 @@ function reverseString(str) {
  *   '{)' = false
  *   '{[(<{[]}>)]}' = true
  */
-let mapping = {
-	']': '[',
-	'}': '{',
-	')': '(',
-	'>': '<'
-}
+
 function isBracketsBalanced(str) {
 	// throw new Error("Not implemented");
 	let stk=[];
